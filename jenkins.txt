@@ -1,0 +1,11 @@
+#!groovy
+@Library('latest')_
+msBuildPipelinePlugin
+{
+	ait="00001"
+	spk="AIWeb"
+	repo="aiwebdev"
+	cleanWorkspace=true
+	msbuildVersion="15"
+	executePostBuildStep=true
+}
